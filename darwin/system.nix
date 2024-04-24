@@ -9,14 +9,7 @@
   homebrew = import ./homebrew.nix;
 
   services = {
-    yabai = {
-      enable = true;
-      config = import ./yabai.nix;
-        extraConfig = ''
-          yabai -m rule --add app='Pop' manage=off sticky=on layer=above
-          yabai -m rule --add app='System Settings' manage=off  sticky=on layer=above
-        '';
-    };
+    yabai = import ./yabai.nix;
   };
 
   # Touch ID sudo unlock

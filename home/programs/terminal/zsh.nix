@@ -12,7 +12,6 @@
       ll = "l -ahlF";
       la = "l -a";
       ls = "l";
-      find = "fd";
       grep = "rg";
       cat = "bat";
       less = "bat --pager=less";

@@ -5,6 +5,8 @@
     ./programs/.
   ];
 
+  home.stateVersion = "23.05"; # Please read the comment before changing.
+
   # Secrets configuration goes here for file management convenience
   secrets = {
     # Absolute path to identity (created not through home-manager)
@@ -37,6 +39,14 @@
         "${config.home.homeDirectory}/.aws/credentials"
       ];
     };
+
+    # kubectl config
+    file.kube-config = {
+      source = ./secrets/kube-config.age;
+      symlinks = [
+        "${config.home.homeDirectory}/.kube/config"
+      ];
+    };
   };
 
   home.sessionVariables = {
@@ -44,6 +54,4 @@
     #   $(${pkgs.coreutils}/bin/cat ${config.age.secrets.mc-config-json.path})
     # '';
   };
-
-  home.stateVersion = "23.05"; # Please read the comment before changing.
 }

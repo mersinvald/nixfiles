@@ -6,4 +6,5 @@ in
   "home/secrets/mc-config-json.age".publicKeys = users;
   "home/secrets/aws-config.age".publicKeys = users;
   "home/secrets/aws-credentials.age".publicKeys = users;
+  "home/secrets/kube-config.age".publicKeys = users;
 }

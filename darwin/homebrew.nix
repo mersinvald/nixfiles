@@ -65,5 +65,6 @@
     "Infuse" = 1136220934;
     "Bitwarden" = 1352778147;
     "Microsoft Word" = 462054704;
+    "DaisyDisk (4.30)" = 411643860;
   };
 }

@@ -2,8 +2,6 @@
 
 {
   imports = [
-    ./graphical/.
-    ./terminal/.
-    ./util/.
+    ./ricoh-compat/.
   ];
 }

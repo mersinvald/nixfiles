@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exiftool -Model="RICOH GR IIIx" -UniqueCameraModel="RICOH GR IIIx" -T -ext jpg .

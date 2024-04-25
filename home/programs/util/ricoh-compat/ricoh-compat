@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exiftool -Model="RICOH GR III" -UniqueCameraModel="RICOH GR III" -T -ext dng .

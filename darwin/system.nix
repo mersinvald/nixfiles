@@ -37,6 +37,7 @@
 
     finder = {
       AppleShowAllExtensions = true;
+      AppleShowAllFiles = true;
       FXPreferredViewStyle = "clmv";
       ShowPathbar = true;
       FXEnableExtensionChangeWarning = false;

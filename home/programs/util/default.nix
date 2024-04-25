@@ -3,5 +3,6 @@
 {
   imports = [
     ./ricoh-compat/.
+    ./genmacaddr/.
   ];
 }

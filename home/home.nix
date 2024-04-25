@@ -24,7 +24,13 @@
         ];
       };
 
-
+      # aws cli config
+      file.aws-config = {
+        source = ./secrets/aws-config.age;
+        symlinks = [
+          "${config.home.homeDirectory}/.aws/config"
+        ];
+      };
   };
 
   home.sessionVariables = {

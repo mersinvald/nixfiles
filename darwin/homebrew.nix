@@ -47,6 +47,7 @@
     "affinity-designer"
     "affinity-publisher"
     "gyroflow"
+    "obs"
 
     # Fonts
     "font-fira-code"

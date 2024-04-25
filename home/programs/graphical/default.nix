@@ -4,6 +4,7 @@
   imports = [
     ./wezterm/.
     ./zed/.
+    ./obs/.
     ./firefox.nix
   ];
 }

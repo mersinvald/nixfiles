@@ -42,6 +42,7 @@
     # Communications
     "telegram"
     "discord"
+    "slack"
 
     # Photo & Video Editing
     "affinity-photo"

@@ -53,6 +53,8 @@
     # Fonts
     "font-fira-code"
     "font-jetbrains-mono"
+    "font-awesome-terminal-fonts"
+    "font-fontawesome"
 
 
 # TODO: investigate those programs:

@@ -5,6 +5,7 @@
     ./wezterm/.
     ./zed/.
     ./obs/.
+    ./hammerspoon/.
     ./firefox.nix
   ];
 }

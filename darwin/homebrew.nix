@@ -44,12 +44,13 @@
     "discord"
     "slack"
 
-    # Photo & Video Editing
+    # Photo & Video
     "affinity-photo"
     "affinity-designer"
     "affinity-publisher"
     "gyroflow"
     "obs"
+    "vlc"
 
     # Fonts
     "font-fira-code"

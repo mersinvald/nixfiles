@@ -30,10 +30,12 @@
     "hammerspoon"
     "raycast"
     "wezterm"
+    "dotnet-sdk"
 
     # Development
     "zed"
     "visual-studio-code"
+    "godot"
 
     # Productivity
     "firefox"
@@ -43,6 +45,7 @@
     "telegram"
     "discord"
     "slack"
+    "zoom"
 
     # Photo & Video
     "affinity-photo"
